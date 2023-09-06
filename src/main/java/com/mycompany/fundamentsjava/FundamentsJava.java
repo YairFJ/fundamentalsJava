@@ -13,7 +13,10 @@ public class FundamentsJava {
     public static void main(String[] args) {
        // Crear 3 variables, una para edad, otra para nombre y una ultima para su salario
        
-       int edad = 22;
+       int edad;
+     
+       edad = 22;
+               
        String nombre = "Yair";
        double salario = 400000;
        
@@ -21,5 +24,19 @@ public class FundamentsJava {
        
         
         System.out.println("----------------------------------------------------------------------------");
+    
+    // Condicionales
+    
+    edad = 35;
+    
+    if (edad >= 35) {
+        System.out.println("Sos muy grande para este boliche");
+    } else if (edad >= 18) {
+        System.out.println("Podés entrar");
+    } else{
+        System.out.println("Sos menor, no podés entrar");
+    }
+    
+    
     }
 }
